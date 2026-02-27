@@ -1,0 +1,30 @@
+# Core
+python-dotenv
+numpy
+pandas
+scipy
+
+# OCR and image processing
+paddleocr
+paddlepaddle
+opencv-python
+Pillow
+
+# ML / anomaly detection
+scikit-learn
+xgboost
+
+# API / Web app
+fastapi
+uvicorn
+streamlit
+
+# PDF / reports
+reportlab
+openpyxl
+
+# Database (optional – for storing reports)
+sqlalchemy
+
+# Email notifications
+requests
