@@ -35,7 +35,7 @@ st.markdown('<h1 class="app-title"> AI-Powered Expense Report Generator</h1>', u
 st.markdown('<p class="subtle">Intelligent expense automation: From receipt capture to manager approval in seconds</p>', unsafe_allow_html=True)
 
 # ---- API Key ----
-API_KEY = "AIzaSyCnWqOP6Utu9lfF4cbCX3v3g_8_wCHFvCg"
+API_KEY =  st.secrets["GEMINI_API_KEY"] 
 genai.configure(api_key=API_KEY)
 model = genai.GenerativeModel("gemini-2.5-flash")
 
