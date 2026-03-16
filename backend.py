@@ -8,7 +8,7 @@ import streamlit as st
 
 # --- CONFIGURATION ---
 MONGO_URI = st.secrets["MONGO_URI"] 
-
+SENDER_EMAIL = st.secrets["SENDER_EMAIL"]
 SENDER_PASSWORD = st.secrets["EMAIL_PASSWORD"]
 
 # Mock Employee Directory (UPDATED WITH DEPARTMENTS)
