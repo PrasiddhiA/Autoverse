@@ -12,12 +12,13 @@ Pillow
 
 # ML / anomaly detection
 scikit-learn
-xgboost
+
 
 # API / Web app
 fastapi
 uvicorn
 streamlit
+google-generativeai
 
 # PDF / reports
 reportlab
@@ -28,3 +29,9 @@ sqlalchemy
 
 # Email notifications
 requests
+
+plotly
+fpdf
+PyMuPDF
+Pillow
+pymongo

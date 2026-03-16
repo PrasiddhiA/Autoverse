@@ -4,11 +4,12 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 import datetime
 import certifi
+import streamlit as st
 
 # --- CONFIGURATION ---
-MONGO_URI = "mongodb+srv://prasiddhiagarwal03_db_user:W7V2QN4qaUat5yLW@autov.1as6up3.mongodb.net/?appName=AutoV"
+MONGO_URI = st.secrets["MONGO_URI"] 
 SENDER_EMAIL = "greprep512@gmail.com"
-SENDER_PASSWORD = "jnyn sqog fldu bwcd"
+SENDER_PASSWORD = st.secrets["EMAIL_PASSWORD"]
 
 # Mock Employee Directory (UPDATED WITH DEPARTMENTS)
 EMPLOYEE_DIRECTORY = {
